@@ -1,0 +1,84 @@
+*{
+    width: 250px;
+    padding: 3px 3px;
+   
+}
+
+:root {
+  --text-color: #a80909d2 ;
+}
+
+.light {
+  --text-color: rgb(140, 165, 141);
+}
+
+
+body {
+  background: url(./assets/ftsbg.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+
+div{
+  margin: 12px;
+  padding: px;
+}
+
+
+
+img{
+width: 100%;
+}
+
+ul{
+list-style: none;
+margin: 30px;
+}
+
+ul li a{
+  border: 1px solid rgb(185, 41, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur (4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-size: 12px;
+
+  transition: background 0,25;
+  padding: 12px;
+  
+}
+
+ul li a:hover{
+  background-color:rgb(167, 223, 130);
+  border: 2px ;
+}
+
+#social-link{
+  display: flex;
+  padding: 0px;
+  margin: 40px;
+ 
+
+  
+}
+
+#social-link img{
+  width: 50px;
+  
+}
+#social-link a:hover{
+  background: rgb(167, 223, 130);
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+footer{
+  font-size: 20px;
+  background-color:rgba(49, 53, 13, 0.144) ;
+  margin: 60px;
+}
